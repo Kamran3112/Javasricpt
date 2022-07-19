@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+//     let arry=[
+//         ["Harry","male",16,"I com"],
+//         ["Michel","male",17,"M com"],
+//         ["Sarah","Female",18,"D com"],
+//         ["Peter", "male", 19,"B com"],
+//         ["Jhon", "male", 20,"BA","city"],
+//     ] 
+//     document.write(arry.length)
+//     document.write("<table border=1px cellspacing=0>")
+// for(let a=0; a<arry.length; a=a+1){
+//     document.write("<tr>")
+//     for(let b=0; b <arry[a].length;b=b+1){
+//         document.write( "<td>"+ arry[a][b] + " " +  "</td>")
+//     }
+//     document.write("</tr>")
+//     document.write("<br>" + " ")
+// }
+// document.write("</tr>")
+
+
+let arr=[
+["Name","Gender","age","Education","City"],
+["Harry","male",16,"I com","Kasur"],
+["Jhon","male",17," D com","Lahore"],
+["Hareem","Female",17,"B com","Kasur"],
+["Peter","male",18,"I com","Karachi"],
+["David","male",20,"BA","Khairpur"]
+]
+document.write("<table border=1px cellspacing=0>")
+    
+for(let head=0;head<arr.length;head++){
+ document.write("<tr>")
+    document.write("<th>")
+    for( let data=0;data<arr[head].length;data++){
+       document.write("<td>")
+        document.write(arr[head][data])
+    }
+    document.write("</td>")
+    document.write("</tr>")
+    document.write("</th>")
+    
+    document.write("<br>")
+}
+document.write("</table>")
+
+
+
+let myarr=["haarry","bilal","city","daniyal"]
+document.write(myarr +" <br>")
+  myarr.splice(1,0,"deepak", "joshi")
+document.write(myarr+" <br>")
+
+
+</script>
+<body>
+    
+</body>
+</html>

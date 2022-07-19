@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+     let myobj={
+        Fname:"Hassan",
+        Lname:"Ali",
+        Age:"20",
+        Religion:"Islam",
+        Prayers:["Fajr","Duhar","Asar","Magrib","Esha"],
+        Sobj:{
+            Name:"Ali",
+            Age:"25"
+        },
+        
+         FullName:function(){
+            return this.Fname+" "+this.Lname
+        },
+        Salary: function(){
+            return 25000
+        }
+     }
+     console.log(myobj);
+     document.write(myobj.Sobj.Age)
+
+    document.write("<br><br><br><br><br><br>")
+    let person=new Object();
+
+    person.Fname="Johny",
+    person.Lname="Depth"
+    document.write(person.Fname+" "+person.Lname)
+</script>
+<body>
+    
+</body>
+</html>

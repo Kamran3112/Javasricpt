@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let a =["Harry","David","jhon","Michel","Joseph"]
+    let c=["Gabrel","Luci"]
+let r=a.join( " ")
+document.write(r)
+
+let x =["Harry","David","jhon","Michel","David"]
+let y= x.lastIndexOf("David" , 3)
+document.write(y+"<br><br>")
+let ages=[17,19,18,20,28]
+ let p=ages.findIndex(adultage)
+document.write(p+"<br><br>")
+ function  adultage(age){
+    return age>=18
+}
+let n=["Harry","David","jhon","Michel","David"]
+n.forEach(practice)
+
+function practice(val, papa){
+    document.write(papa + ":" + val +"<br><br>")
+}
+
+let myobj={
+    Name:"ali",
+    Age:18,
+    Gender:"Male",
+    City:"Lahore",
+    Email:"Ali@gmail.com"
+}
+for(var key in myobj){
+    document.write( key + ":" + myobj[key]+"<br><br>")
+}
+</script>
+<body>
+    
+</body>
+</html>
